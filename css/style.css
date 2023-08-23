@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+
+.logo img {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+}
+
+.sc-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.profil {
+    display: flex;
+    width: 217.956px;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.profil-photo {
+    border-radius: 50%;
+    background: #C0C0C0;
+}
+
+.user-name {
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.dcn-btn {
+    display: flex;
+    width: 190px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 86px;
+    background: #002EA3;
+}
+
+.dcn-btn p {
+    color: #FFF;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px; 
+}
+
+.user-ac {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.user-ac div{
+    background: rgba(255, 255, 255, 0.04);
+    width: 421px;
+    padding: 10px;
+}
+
+.filter {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+
+.sc-post {
+    background: linear-gradient(180deg, rgba(235, 237, 255, 0.10) 0%, rgba(235, 237, 255, 0.00) 100%);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.post-teaser {
+    width: 1000px;
+    display: flex;
+    padding: 25px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #393939;
+    background: #1C1C1C;
+    box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.ctn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nm-tm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cm-time {
+    color: var(--subtitle-text-color, #808080);
+    font-family: Roboto;
+    /* font-size: 10px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.feather {
+    display: flex;
+    flex-direction: column;
+}
+
+.head li {
+    list-style: none;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cmt {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+}
+
+.submenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sb-tags {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sb-tags-l {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
