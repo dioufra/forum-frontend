@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 48px;
     margin: 40px;
 }
 
@@ -154,6 +154,7 @@ main {
 .filter {
     display: flex;
     margin-bottom: 20px;
+    gap: 10px;
 }
 
 .filter-btn {
