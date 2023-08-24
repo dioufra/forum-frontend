@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-image: url('../BG.png');
     background-size: cover;
@@ -113,7 +118,7 @@ main {
     background: #002EA3;
 }
 
-.dcn-btn p {
+.dcn-btn a {
     color: #FFF;
     text-align: center;
     font-family: Space Grotesk;
@@ -159,6 +164,11 @@ main {
     background-color: white;
     color: black;
     padding: 10px;
+}
+
+.icone {
+    width: 19px;
+    height: 19px;
 }
 
 
