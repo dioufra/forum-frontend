@@ -228,8 +228,6 @@ input[type="text"] {
     color: #ffffff;
     font-weight: 100;
     letter-spacing: 0.01em;
-    /* position: relative; */
-    /* z-index: 1; */
 }
 
 ::placeholder{
@@ -239,100 +237,28 @@ input[type="text"] {
 }
 
 .btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin-top: 1.7%;
     margin-left: 3%;
-  /* transform: translate(-50%, -50%); */
-  width: 150px;
-  height: 30px;
+    width: 195px;
+    height: 60px;
     border: 1px solid  #002EA3;
-    padding: 15px;
     border-radius: 50px;
     cursor: pointer;
     overflow: hidden;
+    gap: 12px;
 }
 
-/* Style the p tag */
-.btn p{
-    position: relative;
-    bottom: 30px;
-    left: 5px;
-    margin-bottom: 100px;
-   text-transform: uppercase;
-   text-align: center;
-   color: #fff;
-   font-weight: 900;
-   font-size: 20px;
-   margin-left: 30px;
-   margin-bottom: 100px;
-   transition: all 0.5s ease;
+.im{
+    width: 10%;
 }
 
-/* Style the first icon with class send */
-.send{
-  position:relative;
-  top:1px;
-  left: 1px;
-  color: #fff;
-  transition: all 0.5s ease;
+.words{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
-
-/* Style the second icon with class send2 */
-.send2{
-  position: relative;
-  top:80px;
-  left: 30px;
-  color: #696666;
-  transition: all 0.5s ease;
-}
-
-
-/* Hover effects */
-.btn:hover{
-  background:  #002EA3;
-  transition: all 0.5s ease;
-}
-
-.btn:hover p{
-  color: #696666;
-  transition: all 0.5s ease;
-  animation: move 1s linear 1s forwards;
-}
-
-.btn:hover .send{
-  top: -50px;
-  transition: all 0.5s ease;
-}
-
-.btn:hover .send2{
-  top: 15px;
-  transition: all 0.5s ease;
-  animation: sending 1s linear 1s forwards;
-}
-
-
-/* CSS3 animation keyframes */
-@keyframes sending{
-  0%{
-    transform: translateY(0);
-  }
-  100%{
-    transform: translate(40px, -60px);
-  }
-}
-
-@keyframes move{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-18px);
-  }
-}
-
-
-/* .bord {
-    border-radius: 100;
-} */
 
 .head {
     width: 100%;
