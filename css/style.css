@@ -125,20 +125,20 @@ main {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
 
 .user-ac {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: flex-start;
 }
 
 .user-ac div{
     background: rgba(255, 255, 255, 0.04);
     width: 421px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .user-ac div, p {
@@ -357,6 +357,11 @@ input[type="text"] {
     gap: 10px;
 }
 
+/* aleatory changes */
+.nm-tm {
+    font-size: 18px;
+}
+
 .imge img{
     width: 50px;
     padding-bottom: 10px;
@@ -377,7 +382,7 @@ input[type="text"] {
 .cm-time {
     color: var(--subtitle-text-color, #808080);
     font-family: Roboto;
-    /* font-size: 10px; */
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -408,10 +413,20 @@ span {
 .cmt {
     color: #808080;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 25px;
+    letter-spacing: 0.7px;
+}
+
+.cmt-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     letter-spacing: 0.7px;
 }
 
@@ -447,4 +462,51 @@ span {
 .activity {
     display: flex;
     gap: 5px;
+}
+
+
+/* commment page section - francois */
+
+.pc {
+    gap: 15px;
+}
+
+.cmts-ct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-bottom: 3px solid #1326A2;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 10px 16px;
+}
+
+.cmt-ct {
+    display: flex;
+    padding: 6px 0px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.usr-cmt-photo img {
+    width: 30px;
+    height: 30px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 0 0;
+    gap: 5px;
+}
+
+.cmt-head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 6px;
 }
