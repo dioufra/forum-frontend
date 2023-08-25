@@ -167,6 +167,17 @@ main {
     padding: 10px;
 }
 
+/* xander */
+.first{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: rgb(48, 48, 239);
+    color: black;
+    padding: 10px;
+}
+
 .icone {
     width: 19px;
     height: 19px;
@@ -202,20 +213,24 @@ main {
     margin: auto;
 }
 
+/* xander */
 .mentary{
     background-color: #282828;
     border-bottom: 5px solid #002EA3;
 }
 
+/* xander */
 .area{
     display: flex;
 }
 
+/* xander */
 button {
     padding: 1%;
     margin-left: 1%;
 }
 
+/* xander */
 input[type="text"] {
     margin-top: 2%;
     background-color: #1C1C1C;
@@ -228,118 +243,51 @@ input[type="text"] {
     color: #ffffff;
     font-weight: 100;
     letter-spacing: 0.01em;
-    /* position: relative; */
-    /* z-index: 1; */
 }
 
+/* xander */
 ::placeholder{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    word-spacing: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    font-size: 15px;
+    font-weight:bold;
 }
 
+/* xander */
 .btn{
+    background: linear-gradient(to right, blue, purple );    
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin-top: 1.7%;
     margin-left: 3%;
-  /* transform: translate(-50%, -50%); */
-  width: 150px;
-  height: 30px;
-    border: 1px solid  #002EA3;
-    padding: 15px;
+    width: 195px;
+    height: 60px;
     border-radius: 50px;
     cursor: pointer;
     overflow: hidden;
+    gap: 12px;
 }
 
-/* Style the p tag */
-.btn p{
-    position: relative;
-    bottom: 30px;
-    left: 5px;
-    margin-bottom: 100px;
-   text-transform: uppercase;
-   text-align: center;
-   color: #fff;
-   font-weight: 900;
-   font-size: 20px;
-   margin-left: 30px;
-   margin-bottom: 100px;
-   transition: all 0.5s ease;
+/* xander */
+.im{
+    width: 15%;
 }
 
-/* Style the first icon with class send */
-.send{
-  position:relative;
-  top:1px;
-  left: 1px;
-  color: #fff;
-  transition: all 0.5s ease;
+/* xander */
+.words{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
 }
 
-/* Style the second icon with class send2 */
-.send2{
-  position: relative;
-  top:80px;
-  left: 30px;
-  color: #696666;
-  transition: all 0.5s ease;
-}
-
-
-/* Hover effects */
-.btn:hover{
-  background:  #002EA3;
-  transition: all 0.5s ease;
-}
-
-.btn:hover p{
-  color: #696666;
-  transition: all 0.5s ease;
-  animation: move 1s linear 1s forwards;
-}
-
-.btn:hover .send{
-  top: -50px;
-  transition: all 0.5s ease;
-}
-
-.btn:hover .send2{
-  top: 15px;
-  transition: all 0.5s ease;
-  animation: sending 1s linear 1s forwards;
-}
-
-
-/* CSS3 animation keyframes */
-@keyframes sending{
-  0%{
-    transform: translateY(0);
-  }
-  100%{
-    transform: translate(40px, -60px);
-  }
-}
-
-@keyframes move{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-18px);
-  }
-}
-
-
-/* .bord {
-    border-radius: 100;
-} */
-
+/* xander */
 .head {
     width: 100%;
     display: flex;
     justify-content:space-between;
 }
 
+/* xander */
 .tete{
     width: 100%;
     display: flex;
@@ -362,12 +310,14 @@ input[type="text"] {
     font-size: 18px;
 }
 
+/* xander */
 .imge img{
     width: 50px;
     padding-bottom: 10px;
     margin: 10px;
 }
 
+/* xander */
 .pseudo {
     padding-top: 10px;
     display: flex;
@@ -375,6 +325,7 @@ input[type="text"] {
     gap: 10px;
 }
 
+/* xander */
 .mentary{
     padding: 10px;
 }
@@ -389,6 +340,7 @@ input[type="text"] {
     letter-spacing: 0.5px;
 }
 
+/* xander */
 span {
     color: var(--subtitle-text-color, #808080);
     font-family: Roboto;
@@ -404,6 +356,7 @@ span {
     flex-direction: column;
 }
 
+/* xander */
 .text-area {
     display: flex;
     flex-direction: column;
