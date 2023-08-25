@@ -167,6 +167,17 @@ main {
     padding: 10px;
 }
 
+/* xander */
+.first{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: rgb(48, 48, 239);
+    color: black;
+    padding: 10px;
+}
+
 .icone {
     width: 19px;
     height: 19px;
@@ -202,20 +213,24 @@ main {
     margin: auto;
 }
 
+/* xander */
 .mentary{
     background-color: #282828;
     border-bottom: 5px solid #002EA3;
 }
 
+/* xander */
 .area{
     display: flex;
 }
 
+/* xander */
 button {
     padding: 1%;
     margin-left: 1%;
 }
 
+/* xander */
 input[type="text"] {
     margin-top: 2%;
     background-color: #1C1C1C;
@@ -230,13 +245,17 @@ input[type="text"] {
     letter-spacing: 0.01em;
 }
 
+/* xander */
 ::placeholder{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    word-spacing: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    font-size: 15px;
+    font-weight:bold;
 }
 
+/* xander */
 .btn{
+    background: linear-gradient(to right, blue, purple );    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -244,28 +263,31 @@ input[type="text"] {
     margin-left: 3%;
     width: 195px;
     height: 60px;
-    border: 1px solid  #002EA3;
     border-radius: 50px;
     cursor: pointer;
     overflow: hidden;
     gap: 12px;
 }
 
+/* xander */
 .im{
-    width: 10%;
+    width: 15%;
 }
 
+/* xander */
 .words{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 23px;
 }
 
+/* xander */
 .head {
     width: 100%;
     display: flex;
     justify-content:space-between;
 }
 
+/* xander */
 .tete{
     width: 100%;
     display: flex;
@@ -288,12 +310,14 @@ input[type="text"] {
     font-size: 18px;
 }
 
+/* xander */
 .imge img{
     width: 50px;
     padding-bottom: 10px;
     margin: 10px;
 }
 
+/* xander */
 .pseudo {
     padding-top: 10px;
     display: flex;
@@ -301,6 +325,7 @@ input[type="text"] {
     gap: 10px;
 }
 
+/* xander */
 .mentary{
     padding: 10px;
 }
@@ -315,6 +340,7 @@ input[type="text"] {
     letter-spacing: 0.5px;
 }
 
+/* xander */
 span {
     color: var(--subtitle-text-color, #808080);
     font-family: Roboto;
@@ -330,6 +356,7 @@ span {
     flex-direction: column;
 }
 
+/* xander */
 .text-area {
     display: flex;
     flex-direction: column;
