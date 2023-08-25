@@ -510,3 +510,32 @@ span {
     align-items: flex-end;
     gap: 6px;
 }
+
+.new-comment {
+    display: flex;
+    align-self: stretch;
+    gap: 10px;
+}
+
+.nc-ct {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 52px;
+    border: 1px solid #3F3F3F;
+    background: #1E1E1E;
+    padding: 10px;
+}
+
+.nc-cm-btn {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 52px;
+    background: var(--gradient, linear-gradient(130deg, #002EA3 0%, #7800A3 100%));
+}
+
+input[type="text"] {
+    font-size: 16px;
+}
