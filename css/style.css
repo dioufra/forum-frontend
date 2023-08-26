@@ -260,7 +260,7 @@ nav {
     letter-spacing: 1px;
 }
 
-main-home {
+.main-home {
     margin: auto;
     display: flex;
     gap: 25px;
