@@ -430,7 +430,7 @@ button {
 }
 
 /* xander */
-input[type="text"] {
+input[type="text"][name="comment"] {
     margin-top: 2%;
     background-color: #1C1C1C;
     border: 1px solid rgb(50, 50, 50);
