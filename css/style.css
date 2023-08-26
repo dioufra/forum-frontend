@@ -265,6 +265,7 @@ nav {
     display: flex;
     gap: 25px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .logo img {
@@ -399,7 +400,7 @@ nav {
 }
 
 .post-teaser {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     padding: 25px 30px;
     flex-direction: column;
