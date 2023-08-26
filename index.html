@@ -3,15 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forum</title>
 </head>
 <body>
     <header>
-
+        <div class="main-header">
+            <div class="logo" >
+                <img src="./LOGO.png"  alt="bg-image">
+            </div>
+           
+                <a class="menu-a" id="show-modal"type="submit">Modal</a>
+            
+            <a class="menu-a">Join us</a>
+        </div>
     </header>
     <main>
-
+        <div class="main-content">
+            Communnicate <br>
+            share and enjoy <br>
+        </div>
+        <div class="main-content-subscribe">
+            <a class="subscribe" class="subscribe" href="">Subscribe</a>
+        </div>
+        <div class="contents">
+            <div class="form-f">
+                <div class="form-ff">
+                    <div class="title-form">
+                        <p class="title-form">Connexion</p>
+                    </div>
+                    <form class="connection-form" action="" method="post">
+                       <div class="input-form">
+                          <input type="text" name="name" placeholder="name" id="">
+                       </div> 
+                       <div class="input-form">
+                           <input type="text" name="username" placeholder="username" id="">
+                       </div>
+                       <div class="input-form">
+                           <input type="email" name="email" placeholder="email" id="">                    
+                       </div>
+                       <div class="input-form">                    
+                           <input type="password" name="password" placeholder="password" id="">
+                       </div>
+                       <div class="input-form">                    
+                           <input type="password" name="confirme-password" placeholder="repeat password" id="">
+                       </div>
+                        <p class="error-message"> mot incorrect</p>
+                        <div class="submit-btn">
+                            <a type="submit">Connexion</a> <br>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+            <div class="rigth-des">
+                <div class="rigth-content">
+                    Join us <br> share <br>enjoy
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-f">
+            <div>
+                <div class="modal-header">
+                    <p class="tilte-modal">
+                        New Post
+                    </p>
+                    <a  class="btn-close" id="close_modal" data-modal-hide="defaultModal">
+                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-form">
+                    <form action="" method="post" class="form-modal">
+                        <div class="input-form-m">
+                            <p>
+                                <label for="title-form">Title</label>
+                            </p>
+                            <input type="text" name="title" placeholder="title" id="title-form">
+                        </div>
+                        <div class="input-form-m">
+                            <p>
+                                <label for="content-form">Content</label>
+                            </p>
+                            <textarea name="content" id="content-form" cols="30" rows="10"></textarea>
+                        </div>
+                        <a class="post-submit" type="submit">Connexion</a>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
-    
 </body>
+<footer>
+    <div class="footer">
+        <div class="logo">
+            <img src="./LOGO.png" alt="bg-image">
+        </div>
+        <div class="copyrigth">
+         <span class="footer-title">
+            justice league
+        </span>   
+        All rigth reserved .2023
+        </div>
+    </div>
+</footer>
+<script src="./js/script.js"></script>
 </html>
