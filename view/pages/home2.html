@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            <img src="./LOGO.png" alt="">
-        </div>
-        <div class="links">
-            <div class="sbcr">Suscribe</div>
-            <div class="join">Join us</div>
-        </div>
-    </nav>
+{{template "layout" .}}
+{{ define "content"}}
     <main class="main-home">
         <section class="sc-user-info">
             <div class="profil">
-                <div class="profil-photo"> <img src="./Transhumans Astro.png" alt=""></div>
+                <div class="profil-photo"> <img src="/view/images/Transhumans Astro.png" alt=""></div>
                 <p class="user-name">Le peul froussard</p>
                 <div class="dcn-btn">
                     <p>Disconnet</p>
@@ -35,15 +18,15 @@
         <section class="sc-post">
             <div class="filter">
                 <div class="first">
-                    <div><img src="./icones/clock.svg" alt=""></div>
+                    <div><img src="/view/images/icones/clock.svg" alt=""></div>
                     <div>Created</div>
                 </div>
                 <div class="filter-btn">
-                    <div><img src="./icones/arrow-up-right.svg" alt=""></div>
+                    <div><img src="/view/images/arrow-up-right.svg" alt=""></div>
                     <div>Most liked</div>
                 </div>
                 <div class="filter-btn">
-                    <div><img src="./icones/check-circle.svg" alt=""></div>
+                    <div><img src="/view/images/check-circle.svg" alt=""></div>
                     Categories
                 </div>
             </div>
@@ -52,7 +35,7 @@
                     <div class="head">
                         <div class="ctn">
                             <div class="img">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="nm-tm">
                                 <p>Golanginya</p>
@@ -72,7 +55,7 @@
                     <div class="submenu">
                         <div class="sb-tags">
                             <div class="sb-tags-l like">
-                                <div><img src="./icones/Heart.svg" alt=""></div>
+                                <div><img src="/view/images/Heart.svg" alt=""></div>
                                 <div>12</div>
                             </div>
                             <div class="sb-tags-l">
@@ -80,12 +63,12 @@
                                 <div>Dislike</div>
                             </div>
                             <div class="sb-tags-l">
-                                <div><img src="./icones/Chat.svg" alt=""></div>
+                                <div><img src="/view/images/Chat.svg" alt=""></div>
                                 <div>Comment</div>
                             </div>
                         </div>
                         <div class="activity">
-                            <div><img src="./icones/message-square.svg" alt=""></div>
+                            <div><img src="/view/images/message-square.svg" alt=""></div>
                             <div>15</div>
                         </div>
                     </div>
@@ -93,7 +76,7 @@
                         <!-- <div class="bord"> -->
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya <span>  5 min ago</span></p>
@@ -103,7 +86,7 @@
                         </div>
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya<span>  5 min ago</span></p>
@@ -113,7 +96,7 @@
                         </div>
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya<span>  5 min ago</span></p>
@@ -123,7 +106,7 @@
                         </div>
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya<span>  5 min ago</span></p>
@@ -133,7 +116,7 @@
                         </div>
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya<span>  5 min ago</span></p>
@@ -143,7 +126,7 @@
                         </div>
                         <div class="tete">
                             <div class="imge">
-                                <img src="./Ava.png" alt="">
+                                <img src="/view/images/Ava.png" alt="">
                             </div>
                             <div class="pseudo">
                                 <p>Golanginya<span>  5 min ago</span></p>
@@ -156,7 +139,7 @@
                     <div class="area">
                         <input type="text" id="name" name="name" placeholder="   Write your message here ..." />
                         <div class="btn">
-                            <img src="Send.png" alt="" class="im">
+                            <img src="/view/images/Send.png" alt="" class="im">
                             <p class="words">Post</p>
                         </div>
                     </div>
@@ -164,5 +147,4 @@
             </div>
         </section>
     </main>
-</body>
-</html>
+{{end}}

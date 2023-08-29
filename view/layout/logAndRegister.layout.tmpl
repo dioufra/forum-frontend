@@ -1,0 +1,32 @@
+{{ define "layoutRegisterAndloging"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/css/style.css">
+    <title>Forum</title>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="logo" >
+                <img src="/view/images/LOGO.png"  alt="bg-image">
+            </div>
+           
+                <a class="menu-a" id="show-modal"type="submit">Modal</a>
+            
+            <a class="menu-a">Join us</a>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            Communnicate <br>
+            share and enjoy <br>
+        </div>
+        {{template "contentRegister" .}}
+        {{template "layout1" .}}
+</body>
+<script src="/view/js/script.js"></script>
+</html>
+{{end}}

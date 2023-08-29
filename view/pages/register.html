@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Forum</title>
-</head>
-<body>
-    <header>
-        <div class="main-header">
-            <div class="logo" >
-                <img src="./LOGO.png"  alt="bg-image">
-            </div>
-           
-                <a class="menu-a" id="show-modal"type="submit">Modal</a>
-            
-            <a class="menu-a">Join us</a>
-        </div>
-    </header>
-    <main>
-        <div class="main-content">
-            Communnicate <br>
-            share and enjoy <br>
-        </div>
-        <div class="main-content-subscribe">
-            <a class="subscribe" class="subscribe" href="">Subscribe</a>
-        </div>
+{{template "layoutRegisterAndloging" .}}
+{{ define "contentRegister"}}
         <div class="contents">
             <div class="form-f">
                 <div class="form-ff">
@@ -94,19 +68,4 @@
             </div>
         </div>
     </main>
-</body>
-<footer>
-    <div class="footer">
-        <div class="logo">
-            <img src="./LOGO.png" alt="bg-image">
-        </div>
-        <div class="copyrigth">
-         <span class="footer-title">
-            justice league
-        </span>   
-        All rigth reserved .2023
-        </div>
-    </div>
-</footer>
-<script src="./js/script.js"></script>
-</html>
+{{end}}
